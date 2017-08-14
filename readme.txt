@@ -8,8 +8,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
 
 == Description ==
-Sambal Cakalang is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Sambal Cakalang will make your WordPress look beautiful everywhere.
-
+Sambal Cakalang is a special themes for Sambal Cakalang product
 * Mobile-first, Responsive Layout
 * Custom Colors
 * Custom Header
@@ -17,7 +16,7 @@ Sambal Cakalang is a modernized take on an ever-popular WordPress layout — the
 * Post Formats
 * The GPL v2.0 or later license. :) Use it to make something cool.
 
-For more information about Sambal Cakalang please go to https://codex.wordpress.org/Sambal_Cakalang.
+For more information about Sambal Cakalang please go to https://sambelcakalang.com
 
 == Installation ==
 

@@ -30,6 +30,11 @@
 	<?php wp_head(); ?>
 </head>
 	<body>
-		<?php get_template_part( 'template-parts/header/content', 'menu' ); ?>
+		
+		<?php  
+			
+			is_front_page() ? get_template_part( 'template-parts/header/content', 'menu' ) : get_template_part( 'template-parts/header/content', 'menu-extend' ); 
+		
+		?>
 
 

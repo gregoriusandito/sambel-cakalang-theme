@@ -341,17 +341,20 @@ li{
 	z-index: 2;
 	width: 700px;
 	height: ;
-	color: white;
-	background: #ce1c2b;
+	color: #333;
+	background: #fff;
 	padding: 10px;
+	border: 5px solid #89111b;
 }
 
 #inside_container
 {
-	border:  1px solid white;
+	border:  1px solid #ddd;
 	padding:  20px;
 	overflow: hidden;
 }
+
+
 
 h2{
 	font-family: Century Schoolbook Italic;
@@ -408,7 +411,7 @@ h2:after{
     left: 50%;
     bottom: -25px;
     height: 1px;
-    background: white;
+    background: #333;
     position: absolute;
     transform: translateX(-50%);
 }
@@ -461,6 +464,7 @@ h2:after{
 }
 
 #ourproduct .btn_container{
+	text-align:  left;
 
 }
 
@@ -475,7 +479,7 @@ h2:after{
 
 #ourproduct .btn_container .btn_wrapper{
 
-	width: 48%;
+	
 }
 
 #ourproduct .btn_container .btn_wrapper a{
@@ -593,6 +597,11 @@ h2:after{
     overflow: hidden;
     color: white;
 }
+
+#testmoni h2:after{
+	background:  #fff;
+}
+
 
 #testmoni .container{
 	z-index: 1;
@@ -830,6 +839,7 @@ footer .credit{
 
 }
 
+
 .canal_body h2{
 	font-size: 40px;
 }
@@ -839,13 +849,6 @@ footer .credit{
 	display: block;
 	max-width:  100%;
 	
-}
-
-.canal_body p{
-	max-width: 600px;
-	margin: 20px auto;
-	line-height: 1.5;
-	font-size: 16px;
 }
 
 .canal_body .text{
@@ -1161,19 +1164,4 @@ footer .credit{
 #ourproduct_productpage .btn_a
 {
 	width: 100%;
-}
-
-/*WP Additional*/
-.entry-content img,
-.comment-content img,
-.widget img {
-    max-width: 97.5%; /* Fluid images for posts, comments, and widgets */
-}
-img[class*="align"],
-img[class*="wp-image-"] {
-    height: auto; /* Make sure images with WordPress-added height and width >attributes are scaled correctly */
-}
-img.size-full {
-    max-width: 97.5%;
-    width: auto; /* Prevent stretching of full-size images with height and >>width attributes in IE8 */
 }

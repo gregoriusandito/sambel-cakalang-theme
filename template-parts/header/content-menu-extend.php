@@ -7,6 +7,8 @@ $logo_url   =   function_exists('get_field') ? get_field('sc_menu_logo', 'option
 		<nav id="navbar">
 			<div class="container">
 				<div class="row">
+
+					
 					<ul id="ul_menu" class="hidden-sm hidden-xs">
 						<li>
 							<a href="<?= get_permalink( get_page_by_path( 'utama' )->ID ) ?>" >
@@ -16,14 +18,14 @@ $logo_url   =   function_exists('get_field') ? get_field('sc_menu_logo', 'option
 							</a>
 						</li>
 						<li >
-							<a href="#" id="toAboutUs">
+							<a href="<?= get_permalink( get_page_by_path( 'utama' )->ID ) ?>#aboutus">
 								<span class="text">
 									About Us
 								</span>
 							</a>
 						</li>
 						<li>
-							<a href="#" id="toProducts">
+							<a href="<?= get_permalink( get_page_by_path( 'utama' )->ID ) ?>#ourproduct">
 								<span class="text">
 									Products
 								</span>
@@ -31,13 +33,13 @@ $logo_url   =   function_exists('get_field') ? get_field('sc_menu_logo', 'option
 						</li>
 
 						<li class="li_logo">
-							<a href="<?= get_permalink( get_page_by_path( 'utama' )->ID ) ?>" class="logo_wrapper">
+							<a href="index.html" class="logo_wrapper">
 								<img id="logo_company_nav" src="<?= $logo_url ?>" alt="">
 							</a>
 						</li>
 
 						<li>
-							<a href="#" id="toTestimonials">
+							<a href="<?= get_permalink( get_page_by_path( 'testimonies' )->ID ) ?>">
 								<span class="text">
 									Testimonies
 								</span>
@@ -45,13 +47,13 @@ $logo_url   =   function_exists('get_field') ? get_field('sc_menu_logo', 'option
 						</li>
 
 						<li>
-							<a href="#" id="toFag">
+							<a href="<?= get_permalink( get_page_by_path( 'faq' )->ID ) ?>">
 								<span class="text">
 									FAQ
 								</span>
 							</a>
 						</li>
-
+						
 						<li>
 							<a href="<?= get_permalink( get_page_by_path( 'order' )->ID ) ?>">
 								<span class="text">
@@ -62,6 +64,7 @@ $logo_url   =   function_exists('get_field') ? get_field('sc_menu_logo', 'option
 
 					</ul>
 					<a id="nav_btn" href="#" class="hidden-medium">
+						
 						<div class="navIconWrapper">
 						    <span></span>
 						    <span></span>
@@ -80,13 +83,13 @@ $logo_url   =   function_exists('get_field') ? get_field('sc_menu_logo', 'option
 					<a href="<?= get_permalink( get_page_by_path( 'utama' )->ID ) ?>">Home</a>
 				</li>
 				<li>
-					<a href="#" id="toAboutUsMobile">About Us</a>
+					<a href="<?= get_permalink( get_page_by_path( 'utama' )->ID ) ?>#aboutus" id="toAboutUsMobile">About Us</a>
 				</li>
 				<li>
-					<a href="#" id="toProductsMobile">Products</a>
+					<a href="<?= get_permalink( get_page_by_path( 'utama' )->ID ) ?>#ourproduct" id="toProductsMobile">Products</a>
 				</li>
 				<li>
-					<a href="#" id="toTestimoniesMobile">Testimonies</a>
+					<a href="<?= get_permalink( get_page_by_path( 'testimonies' )->ID ) ?>" >Testimonies</a>
 				</li>
 				<li>
 					<a href="<?= get_permalink( get_page_by_path( 'faq' )->ID ) ?>">F.A.Q</a>
@@ -94,5 +97,7 @@ $logo_url   =   function_exists('get_field') ? get_field('sc_menu_logo', 'option
 				<li>
 					<a href="<?= get_permalink( get_page_by_path( 'order' )->ID ) ?>">Order</a>
 				</li>
+
 			</ul>
 		</div>
+		

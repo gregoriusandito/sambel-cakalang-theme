@@ -1,5 +1,6 @@
 <?php
 /**
+ * Template Name: Order Page
  * The template for displaying pages
  *
  * This is the template that displays all pages by default.

@@ -54,12 +54,7 @@
 								<div class="btn_container">
 									<div class="btn_wrapper left">
 										<a href="<?= get_permalink( get_page_by_path( 'order' )->ID ) ?>" class="btn_a">
-											PESAN
-										</a>
-									</div>
-									<div class="btn_wrapper right white">
-										<a href="<?= get_permalink( get_page_by_path( 'faq' )->ID ) ?>" class="btn_a">
-											HELP
+											PESAN SEKARANG
 										</a>
 									</div>
 								</div>
@@ -92,12 +87,7 @@
 								<div class="btn_container">
 									<div class="btn_wrapper left">
 										<a href="<?= get_permalink( get_page_by_path( 'order' )->ID ) ?>" class="btn_a">
-											PESAN
-										</a>
-									</div>
-									<div class="btn_wrapper right white">
-										<a href="<?= get_permalink( get_page_by_path( 'faq' )->ID ) ?>" class="btn_a">
-											HELP
+											PESAN SEKARANG
 										</a>
 									</div>
 								</div>

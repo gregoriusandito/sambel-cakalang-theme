@@ -6,10 +6,12 @@ $sambal_img_right	=	function_exists('get_field') ? get_field('sc_about_sambal_im
 //main image
 $left_img			=	function_exists('get_field') ? get_field('sc_about_first_image') : null;
 $right_img			=	function_exists('get_field') ? get_field('sc_about_second_image') : null;
+$third_img			=	function_exists('get_field') ? get_field('sc_about_third_image') : null;
 
 //desc
 $left_img_desc		=	function_exists('get_field') ? get_field('sc_about_first_image_description') : null;
 $right_img_desc		=	function_exists('get_field') ? get_field('sc_about_second_image_description') : null;
+$third_img_desc		=	function_exists('get_field') ? get_field('sc_about_third_image_description') : null;
 
 ?>
 
@@ -36,6 +38,7 @@ $right_img_desc		=	function_exists('get_field') ? get_field('sc_about_second_ima
 				<div id="inside_container">
 					<h2>About Us</h2>
 					<div id="content">
+
 						<div class="content_wrapper">
 							<div class="float_left img_float">
 								<img src="<?= $left_img ?>" alt="">
@@ -53,6 +56,16 @@ $right_img_desc		=	function_exists('get_field') ? get_field('sc_about_second_ima
 								<?= $right_img_desc ?>
 							</div>
 						</div>
+
+						<div class="content_wrapper">
+							<div class="float_left img_float">
+								<img src="<?= $third_img ?>" alt="">
+							</div>
+							<div class="float_right txt_float">
+								<?= $third_img_desc ?>
+							</div>
+						</div>
+
 					</div>
 				</div>
 
